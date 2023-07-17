@@ -1,4 +1,4 @@
-# Shop Stop
+# Code Sync
 
 This is a online code editor where multiple programmers can collaborate on the same code . 
 Created using ReactJS , NodeJS , MongoDB with the help of Socket.io.
