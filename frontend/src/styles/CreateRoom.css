@@ -1,0 +1,75 @@
+.create-room {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #282a36;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.create-room-message p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-family: 'Pangolin', cursive;
+}
+
+.create-room-message .welcome {
+    font-size: 20px;
+}
+
+.create-room-input {
+    flex: 1;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+
+.create-room-form input {
+    width: 100%;
+    height: 40px;
+    font-family: 'Pangolin', cursive;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.create-room-form button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 20px 0;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #4aed88;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.create-room-form p {
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+
+.create-room-form span {
+    border-bottom: 1px solid #fff; 
+    color: #4aed88;   
+}
+
+.create-room-form span:hover {
+    cursor: pointer;
+}

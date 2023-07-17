@@ -1,0 +1,9 @@
+.roompage{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-color: #1c1e29;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

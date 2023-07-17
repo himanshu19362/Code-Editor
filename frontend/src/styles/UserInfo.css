@@ -1,0 +1,18 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f4f4f4ab;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.user-info p {
+
+}

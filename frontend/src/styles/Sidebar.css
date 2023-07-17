@@ -1,0 +1,45 @@
+.sidebar {
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid rgba(255, 166, 0, 0.301) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.members-joined {
+    flex: 0.9;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.301) ;
+    padding: 15px 15px;
+    overflow-y : auto;
+}
+
+.members-joined > p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Pangolin', cursive;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.leave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.1;
+}
+
+.leave button {
+    width: 150px;
+    height: 40px;
+    background-color: #4aed88;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.leave button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
